@@ -1,0 +1,7 @@
+Hàm tạo là hàm được chạy ngay lập tức khi tạo mới 1 project
+Hàm tĩnh
+Tính chất :
+- Trừu tượng
+- kế Thừa
+- Đa Hình
+- Đóng gói

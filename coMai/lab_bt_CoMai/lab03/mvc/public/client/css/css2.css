@@ -1,0 +1,108 @@
+*{margin:0;padding: 0; box-sizing: border-box;}
+#wrapper{
+	width:980px;
+	height: 900px;
+	margin: auto;
+	font-family: tahoma;
+}
+#header{
+	width: 980px;
+	height: 350px;
+	background: url(../images/header.jpg);
+	
+}
+#menu{
+	width: 980px;
+	height: 40px;
+	background: #337bb7;
+}
+#content{
+	width: 980px;
+	margin: 20px 0;
+
+}
+#footer{
+	width: 980px;
+	height: 50px;
+	background: #337bb7;
+	clear: both;
+}
+#left{
+	width: 300px;
+	overflow: auto;
+	background: #fff;
+	float: left;
+	border:1px solid #cdcdcd;
+	padding-left: 15px;
+}
+#right{
+	width: 670px;
+	overflow: auto;
+	background: #FFF;
+	float: left;
+	border: 1px solid #cdcdcd;
+	padding: 15px;
+	margin-left: 10px;
+
+}
+/* css menu */
+#menu ul li{
+	list-style: none;float: left;
+	line-height: 40px;
+	padding: 0 20px;
+	position: relative;	
+}
+#menu ul li a{
+	color: #FFF;text-decoration: none;
+}
+#menu ul li a:hover{
+	color: #fdc640;
+}
+#menu ul li ul{
+	position: absolute;
+	display: none;
+}
+#menu ul li:hover ul{
+	display: block;
+}
+
+.qc img{width: 270px; padding-top: 20px}
+
+/* top menu */
+#topmenu{
+	height: 50px;
+	width: 400px;
+	background: #024675;
+	border-bottom-right-radius: 40px;
+	box-shadow: 5px 5px 10px #fff;
+	position: fixed;z-index: 10;
+	color: #FFF;
+}
+#topmenu ul li{
+	list-style: none;
+	float: left;
+	line-height: 50px;
+	padding: 0 20px;
+}
+#topmenu ul li a{color: #fff; text-decoration: none}
+#topmenu ul li a:hover{text-decoration: underline;}
+.danhmuc{line-height: 40px; font-weight: bold;font-size: 16px;}
+.tin{width: 300px;border: 1px solid #cdcdcd;margin-bottom: 10px; float: left;margin-right: 10px; padding: 10px}
+.tin img{width: 280px; height: 200px; padding: 10px 0}
+.tieude{font-size: 16px; font-weight: bold; padding-bottom: 10px}
+.tieude a{color: #054664; text-decoration: none}
+.tieude a:hover{text-decoration: underline}
+.anhct{text-align: center; margin: 20px 0;}
+.anhct img{width: 600px;}
+.chitiet{line-height: 22px}
+.dm_ct{font-weight: bold;color: #024675; margin: 20px 0; padding-top:15px}
+.cmt{margin-top: 5px; border-top: 1px solid #cdcdcd;padding: 15px 0;overflow: auto;}
+.user_cmt{width: 20%;float: left;}
+.ykien{width: 80%;float: left;}
+.user_cmt img{width: 30px;float: left; margin-right: 5px}
+.name,.time{font-size: 12px}
+.tinlq ul li{list-style: url(../images/icon2.png);list-style-position: inside;}
+.tinlq ul li a{color: #000; text-decoration: none;line-height: 30px;font-size: 14px}
+.form_cmt input[type="submit"]{width: 60px;height: 30px;background: #024675; color: #fff; border: none}
+.nut{text-align: right}
+
